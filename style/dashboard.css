@@ -2,14 +2,12 @@
 	background: var(--clr-primary);
 	display: flex;
 	flex-flow: column;
-	padding: 0 2vh;
+	padding: 0 0.75rem;
 	gap: 1.5rem;
 }
 
 .dashboard .material-symbols-outlined {
-/*
 	font-size: 2rem;
-*/
 }
 
 .dash-head,
@@ -26,7 +24,7 @@
 .dash-items-secondary > div {
 	display: flex;
 	gap: 1rem;
-	padding: 0.25rem 1rem;
+	padding: 0.25rem 0.75rem;
 	user-select: none;
 }
 
@@ -42,7 +40,7 @@ Overwriting properties for dash-head
 
 .dash-head {
 	flex-flow: row;
-	padding: 1rem;
+	padding: 1rem 0.75rem;
 }
 
 @media (min-width: 576px) {
@@ -51,7 +49,7 @@ Overwriting properties for dash-head
 
 @media (min-width: 768px) {
 	.dashboard .material-symbols-outlined {
-		font-size: 0.25px;
+		font-size: 1.25px;
 	}
 	
 	.dash-head,
@@ -62,6 +60,11 @@ Overwriting properties for dash-head
 		padding: 0.35rem 1rem;
 		user-select: none;
 	}
+	
+	.dashboard .material-symbols-outlined 
+		{
+			font-size: 1.5rem;
+		}
 
 	.dash-head:hover,
 	.dash-items-primary > div:hover,

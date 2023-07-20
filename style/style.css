@@ -19,7 +19,7 @@
  
  .wrapper {
 	 display: grid;
-	 grid-template: repeat(6, 1fr) / 1fr 4fr 1fr;
+	 grid-template: 1fr 1fr 4fr 1fr / 1fr 4fr 1fr;
   }
  
  .header {
