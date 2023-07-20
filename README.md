@@ -1,3 +1,3 @@
 # Admin Dashboard
 
-Site live at: https://bugsdev2.github.io/adminDashboard/
+Site live at: https://admin-dashboard-one-xi.vercel.app/
