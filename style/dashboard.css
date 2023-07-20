@@ -1,0 +1,85 @@
+.dashboard {
+	background: var(--clr-primary);
+	display: flex;
+	flex-flow: column;
+	padding: 0 2vh;
+	gap: 1.5rem;
+}
+
+.dashboard .material-symbols-outlined {
+/*
+	font-size: 2rem;
+*/
+}
+
+.dash-head,
+.dash-items-primary,
+.dash-items-secondary {
+	color: white;
+	display: flex;
+	flex-flow: column;
+	gap: 0.5rem;
+}
+
+.dash-head,
+.dash-items-primary > div,
+.dash-items-secondary > div {
+	display: flex;
+	gap: 1rem;
+	padding: 0.25rem 1rem;
+	user-select: none;
+}
+
+.dash-head:hover,
+.dash-items-primary > div:hover,
+.dash-items-secondary > div:hover {
+	background: var(--clr-hover);
+}
+
+/*
+Overwriting properties for dash-head
+*/
+
+.dash-head {
+	flex-flow: row;
+	padding: 1rem;
+}
+
+@media (min-width: 576px) {
+	
+};
+
+@media (min-width: 768px) {
+	.dashboard .material-symbols-outlined {
+		font-size: 0.25px;
+	}
+	
+	.dash-head,
+	.dash-items-primary > div,
+	.dash-items-secondary > div {
+		display: flex;
+		gap: 1rem;
+		padding: 0.35rem 1rem;
+		user-select: none;
+	}
+
+	.dash-head:hover,
+	.dash-items-primary > div:hover,
+	.dash-items-secondary > div:hover {
+		background: var(--clr-hover);
+	}
+
+};
+
+@media (min-width: 992px) {
+	
+};
+
+@media (min-width: 1200px) {
+	
+};
+
+@media (min-width: 1400px) {
+	
+};
+

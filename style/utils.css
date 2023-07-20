@@ -1,0 +1,61 @@
+/*
+	BUTTON - START
+*/
+ 
+ .button {
+	appearance: none;
+	padding: 0.25rem 1rem;
+	border-radius: 25px;
+	background: var(--clr-primary);
+	border: none;
+	color: white;
+/*
+	box-shadow: 0 1px 1px black;
+*/
+	transition: all 0.003s ease-in-out;
+ }
+ 
+ .button:hover {
+	 background: var(--clr-hover);
+/*
+	 box-shadow: 0 1.5px 2px 0.25px grey;
+*/
+ }
+ 
+ .button:active {
+	 transform: translateY(-1px);
+ }
+ 
+/*
+	BUTTON - END
+*/
+
+
+/*
+	MINI BUTTON - START
+*/
+ 
+ 
+ .mini-button {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 background: var(--clr-primary);
+	 color: white;
+	 border: none;
+	 border-radius: 100%;
+	 width: 2rem;
+	 height: 2rem;
+ }
+ 
+ .mini-button:hover {
+	 background: var(--clr-hover);
+ }
+ 
+ .mini-button:active {
+	 transform: translateY(-1px);
+ }
+ 
+/*
+	MINI BUTTON - END
+*/
