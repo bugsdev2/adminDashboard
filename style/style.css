@@ -1,1 +1,60 @@
+ *, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	line-height: calc(1em + 0.5rem);
+}
 
+
+ :root {
+ /* Color Palette */
+	--clr-bg: #E7E7E7;
+	--clr-primary: #366175;
+	--clr-font:  #D5F1FF;
+	--clr-hover: #24576F;
+ }
+ 
+ body {
+	 background: var(--clr-bg);
+ }
+ 
+ .wrapper {
+	 display: grid;
+	 grid-template: repeat(6, 1fr) / 1fr 4fr 1fr;
+  }
+ 
+ .header {
+	 grid-column: 2/-1;
+ }
+ 
+ .dashboard {
+	 grid-row: 1/-1;
+ }
+ 
+
+ 
+@media (min-width: 576px) {
+	
+};
+
+@media (min-width: 768px) {
+	
+};
+
+@media (min-width: 992px) {
+	
+};
+
+@media (min-width: 1200px) {
+	
+};
+
+@media (min-width: 1400px) {
+	
+};
+
+
+
+ 
+ 
+ 
+ 
