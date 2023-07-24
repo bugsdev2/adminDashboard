@@ -11,15 +11,14 @@
 	--clr-primary: #366175;
 	--clr-font:  #D5F1FF;
 	--clr-hover: #24576F;
+	--clr-card: #171717;
  }
  
- body {
-	 background: var(--clr-bg);
- }
+ 
  
  .wrapper {
 	 display: grid;
-	 grid-template: 1fr 1fr 4fr 1fr / 1fr 4fr 1fr;
+	 grid-template: auto 1fr auto auto / auto 4fr auto;
   }
  
  .header {
@@ -28,6 +27,26 @@
  
  .dashboard {
 	 grid-row: 1/-1;
+/*
+	 border: 2px solid red;
+*/
+ }
+ 
+ .main {
+/*
+	 border: 2px solid red;
+*/
+ }
+ 
+ .sidebar {
+
+ }
+ 
+ .footer {
+	 grid-column: 2/-1;
+/*
+	 border: 2px solid red;
+*/
  }
  
 

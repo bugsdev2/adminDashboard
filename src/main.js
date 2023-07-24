@@ -1,5 +1,6 @@
 import '../style/header.css';
 import '../style/dashboard.css';
+import '../style/content.css'
 import '../style/style.css';
 import '../style/utils.css';
 
