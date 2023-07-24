@@ -1,0 +1,14 @@
+.footer {
+	background: var(--clr-font);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-template-rows: 1fr; 
+	grid-auto-flow: row;
+}
+
+img {
+	width: 6rem;
+}
+
+
