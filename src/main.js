@@ -1,7 +1,7 @@
 import '../style/header.css';
 import '../style/dashboard.css';
-import '../style/content.css'
-import '../style/footer.css'
+import '../style/content.css';
+import '../style/sidebar.css';
 import '../style/style.css';
 import '../style/utils.css';
 
